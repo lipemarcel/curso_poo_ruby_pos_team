@@ -15,4 +15,4 @@ end
 
 obj1 = Pessoa.new
 obj1.gritar
-obj2.agradecer
+obj1.agradecer
