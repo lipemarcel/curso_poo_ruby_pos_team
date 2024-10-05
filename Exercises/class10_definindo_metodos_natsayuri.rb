@@ -1,10 +1,10 @@
 class Pessoa
-    def gritar
-        puts "Grrrrrrr"
+    def gritar(texto)
+        return "Gritandoo #{texto}"
     end
 
     def agradecer
-        puts "obrigada!!"
+        return "obrigada!!"
     end
 end
 
@@ -14,5 +14,5 @@ end
 ############
 
 obj1 = Pessoa.new
-obj1.gritar
-obj1.agradecer
+puts obj1.gritar("Grrrrr AAAAAA")
+puts obj1.agradecer
